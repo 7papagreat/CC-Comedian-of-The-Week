@@ -1,0 +1,134 @@
+body{
+    margin: 0;
+}
+
+.bg{
+    background: no-repeat center url(cover.png);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 1000px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.overlay{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background: rgba(0,0,0,0.2);
+}
+
+.heading{
+    padding: 400px;
+    text-align: center;
+    color: white;
+}
+.com_links, .club_links{
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.about, .career{
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.about {
+    background-color: #540406;
+}
+.about img {
+ float: right;
+ width:"320rem";
+ height:"320rem";
+ margin-left: 30px;
+ position: relative;
+}
+.videos, .career, .com_links, .club_links{
+    background-color: #b35151;
+}
+
+.career, .com_links, .club_links{
+    background-color: #540406;
+}
+
+.com_links{
+    background-color: #b35151;
+}
+
+.club_links{
+    background-color: #540406;
+    text-align: center;
+}
+
+h2{
+    margin: 0;
+}
+
+h1,h2,h3,p{
+    color: whitesmoke;
+}
+
+*{
+    font-family: 'Comic Sans', Courier, monospace;
+    font-size: ;
+}
+
+hr{
+    border-top: 10px dashed white;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    width: 10%;
+}
+
+.specials{
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+a{
+    color: navajowhite;
+}
+
+img.about{
+    float: right;
+    width: 20%;
+}
+
+a:hover{
+    color: peru;
+}
+
+.btn {
+    background: #b35151;
+    background-image: -webkit-linear-gradient(top, #b35151, #592222);
+    background-image: -moz-linear-gradient(top, #b35151, #592222);
+    background-image: -ms-linear-gradient(top, #b35151, #592222);
+    background-image: -o-linear-gradient(top, #b35151, #592222);
+    background-image: linear-gradient(to bottom, #b35151, #592222);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    text-shadow: 1px 1px 3px #666666;
+    font-family: Courier New;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #ebd063;
+    background-image: -webkit-linear-gradient(top, #ebd063, #c7ad04);
+    background-image: -moz-linear-gradient(top, #ebd063, #c7ad04);
+    background-image: -ms-linear-gradient(top, #ebd063, #c7ad04);
+    background-image: -o-linear-gradient(top, #ebd063, #c7ad04);
+    background-image: linear-gradient(to bottom, #ebd063, #c7ad04);
+    text-decoration: none;
+  }
