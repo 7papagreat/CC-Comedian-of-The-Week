@@ -2,14 +2,19 @@
 {
 	font-family: 'Comic Sans', Courier, monospace;
 }
-
-.about img
+.content img
 {
 	float: right;
-	height: "320rem";
-	margin-left: 30px;
+	width: 25%;
 	position: relative;
-	width: "320rem";
+	padding: 0;
+}
+.specials
+{
+	float: right;
+	width: 30%;
+	position: relative;
+	padding: 0 0 1% 2%;
 }
 .about, .career
 {
@@ -48,6 +53,11 @@
 	padding-right: 20%;
 	padding-top: 2%;
 }
+.content{
+	width:80%;
+	margin: auto;
+
+}
 .heading
 {
 	color: white;
@@ -63,11 +73,11 @@
 	top: 0;
 	width: 100%;
 }
-.specials
-{
-	float: right;
-	margin-bottom: 20px;
-	margin-left: 20px;
+
+.text{
+	text-align: justify;
+}
+
 }
 a
 {
@@ -80,6 +90,7 @@ a:hover
 body
 {
 	margin: 0;
+	text-align: left;
 }
 h1
 {
@@ -91,6 +102,7 @@ h1
 h1,h2,h3,h4
 {
 	font-family: 'Bitter', serif;
+	text-align: center;
 }
 h1,h2,h3,p
 {
@@ -99,7 +111,7 @@ h1,h2,h3,p
 h2
 {
 	font-size: 420.69%;
-    
+
 }
 .heading h2{
     padding-bottom: 3%;
@@ -124,13 +136,17 @@ hr
 	border-top: 10px dashed white;
 	width: 10%;
 }
-img.about
-{
-	float: right;
-	width: 20%;
-}
-
 p{
     font-family: 'Trispace', sans-serif;;
     font-size: 169.42%;
+}
+.vids
+{
+	width: 80%;
+	margin: auto;
+}
+iframe{
+	height: 320px;
+	width: 32%;
+
 }
