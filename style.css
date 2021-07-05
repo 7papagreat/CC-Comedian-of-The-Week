@@ -150,7 +150,7 @@ hr
 	width: 10%;
 }
 p{
-    font-family: 'Trispace', sans-serif;;
+    font-family: 'Trispace', sans-serif;
     font-size: 169.42%;
 }
 .vids
@@ -162,4 +162,13 @@ iframe{
 	height: 320px;
 	width: 32%;
 
+}
+.club_links a{
+	color: whitesmoke;
+	font-family: 'Trispace', sans-serif;
+	text-decoration: none;
+}
+.club_links a:hover{
+	color: whitesmoke;
+	font-family: 'Trispace', sans-serif;
 }
