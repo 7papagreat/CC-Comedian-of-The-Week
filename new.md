@@ -1,6 +1,6 @@
 ## Basic structure
 
-*About
-*Popular vids
-*Career
-*Links social profiles
+* About
+* Popular vids
+* Career
+* Links social profiles
