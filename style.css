@@ -2,10 +2,7 @@
 {
 	font-family: 'Comic Sans', Courier, monospace;
 }
-.about
-{
-	background-color: #540406;
-}
+
 .about img
 {
 	float: right;
@@ -26,51 +23,23 @@
 	background: no-repeat center url(cover.png);
 	background-attachment: fixed;
 	background-size: cover;
-	height: 1000px;
 	overflow: hidden;
 	position: relative;
-	width: 100%;
+    height: 100%;
 }
-.btn
+
+.about, .career, .com_links, .club_links
 {
-	background: #b35151;
-	background-image: linear-gradient(to bottom, #b35151, #592222);
-	background-image: -moz-linear-gradient(top, #b35151, #592222);
-	background-image: -ms-linear-gradient(top, #b35151, #592222);
-	background-image: -o-linear-gradient(top, #b35151, #592222);
-	background-image: -webkit-linear-gradient(top, #b35151, #592222);
-	border-radius: 28px;
-	color: #ffffff;
-	font-family: Courier New;
-	font-size: 20px;
-	moz-border-radius: 28;
-	padding: 10px 20px 10px 20px;
-	text-decoration: none;
-	text-shadow: 1px 1px 3px #666666;
-	webkit-border-radius: 28;
-}
-.btn:hover
-{
-	background: #ebd063;
-	background-image: linear-gradient(to bottom, #ebd063, #c7ad04);
-	background-image: -moz-linear-gradient(top, #ebd063, #c7ad04);
-	background-image: -ms-linear-gradient(top, #ebd063, #c7ad04);
-	background-image: -o-linear-gradient(top, #ebd063, #c7ad04);
-	background-image: -webkit-linear-gradient(top, #ebd063, #c7ad04);
-	text-decoration: none;
-}
-.career, .com_links, .club_links
-{
-	background-color: #540406;
+	background-color: #222222;
 }
 .club_links
 {
-	background-color: #540406;
+	background-color: #222222;
 	text-align: center;
 }
-.com_links
+.com_links, .videos, .com_links
 {
-	background-color: #b35151;
+	background-color: #d8362b;
 }
 .com_links, .club_links
 {
@@ -82,7 +51,7 @@
 .heading
 {
 	color: white;
-	padding: 400px;
+	padding: 10%;
 	text-align: center;
 }
 .overlay
@@ -100,10 +69,6 @@
 	margin-bottom: 20px;
 	margin-left: 20px;
 }
-.videos, .com_links
-{
-	background-color: #b35151;
-}
 a
 {
 	color: navajowhite;
@@ -120,9 +85,12 @@ h1
 {
 	font-size: 690.420%;
 }
-h1,h2,h3
+.heading h1{
+    padding-bottom: 1%;
+}
+h1,h2,h3,h4
 {
-	font-family: 'Bitter', serif;;
+	font-family: 'Bitter', serif;
 }
 h1,h2,h3,p
 {
@@ -131,6 +99,10 @@ h1,h2,h3,p
 h2
 {
 	font-size: 420.69%;
+    
+}
+.heading h2{
+    padding-bottom: 3%;
 }
 h2
 {
@@ -139,6 +111,10 @@ h2
 h3
 {
 	font-size: 362.436%;
+}
+h4{
+    color: white;
+    font-size: 269%;
 }
 hr
 {
