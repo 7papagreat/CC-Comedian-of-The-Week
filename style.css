@@ -172,3 +172,8 @@ iframe{
 	color: whitesmoke;
 	font-family: 'Trispace', sans-serif;
 }
+.comic{
+	font-family: 'Comic Neue', cursive;
+	font-size: 115%;
+	font-weight: 1000;
+}
