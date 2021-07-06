@@ -3,7 +3,6 @@
 	font-family: 'Comic Sans', Courier, monospace;
 }
 .content img
-<<<<<<< HEAD
 {
 	float: right;
 	width: 25%;
@@ -16,7 +15,6 @@
 	width: 30%;
 	position: relative;
 	padding: 0;
-=======
 {
 	float: right;
 	width: 25%;
@@ -29,7 +27,6 @@
 	width: 30%;
 	position: relative;
 	padding: 0 0 1% 2%;
->>>>>>> upstream/main
 }
 .about, .career
 {
@@ -89,12 +86,9 @@
 	width: 100%;
 }
 
-<<<<<<< HEAD
-=======
 .text{
 	text-align: justify;
 }
->>>>>>> upstream/main
 
 }
 a
