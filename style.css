@@ -27,6 +27,18 @@
 	float: right;
 	width: 30%;
 	position: relative;
+	padding: 0;
+{
+	float: right;
+	width: 25%;
+	position: relative;
+	padding: 0;
+}
+.specials
+{
+	float: right;
+	width: 30%;
+	position: relative;
 	padding: 0 0 1% 2%;
 }
 .career
